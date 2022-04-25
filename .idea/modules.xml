@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MS-OrderPaymentServices.iml" filepath="$PROJECT_DIR$/MS-OrderPaymentServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OPCloudGateway/OPCloudGateway.iml" filepath="$PROJECT_DIR$/OPCloudGateway/OPCloudGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OrdersService/OrdersService.iml" filepath="$PROJECT_DIR$/OrdersService/OrdersService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PaymentsService/PaymentsService.iml" filepath="$PROJECT_DIR$/PaymentsService/PaymentsService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServiceRegister/ServiceRegister.iml" filepath="$PROJECT_DIR$/ServiceRegister/ServiceRegister.iml" />
+    </modules>
+  </component>
+</project>

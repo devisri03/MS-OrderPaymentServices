@@ -1,0 +1,26 @@
+server:
+  port: 7000
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7700/eureka
+  instance:
+    hostname: localhost
+
+spring:
+  application:
+    name: GATEWAY_APP
+  cloud:
+    gateway:
+      routes:
+        - id: orders-app
+          uri: lb://ORDERS-APP
+          predicates:
+            - Path=/orders/**
+        - id: payments-app
+          uri: lb://PAYMENTS-APP
+          predicates:
+            - Path=/payments/**
